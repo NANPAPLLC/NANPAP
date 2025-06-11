@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f9fa;
+  color: #002147;
+}
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.content {
+  padding: 3em 2em;
+  text-align: center;
+}
+footer {
+  background: #002147;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
